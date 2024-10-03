@@ -1,0 +1,5 @@
+l'obbiettivo di questo esercizio, era quello di creare e configurare una rete nella quale piu dispositivi appartenenti a sottoreti diverse, potessero comunicare tra loro.
+questa rete è formata da 2 sottoreti, rete 1 e rete 2,dove ad ognuna di esse abbiamo allacciato  tre dispositivi (pc), ognuno con il suo rispettivo ip univoco, collegati ad uno switch, i due switch a loro volta collegati ad un router.
+una volta assegnati gli indirizzi ip ad ogni dispositivo con la rispettiva subnetmask, abbiamo inserito ad ognuno il proprio ip gateway,
+ed è proprio grazie a quest'ultimo che avremo la possibilità di far comunicare dei dispositivo con ip appartenenti a reti diverse.
+abbiamo poi settato il router con l'ip che in questo caso sarà l'ip gateway delle rispettive reti ed infine abbiamo eseguito il ping per constatare se effettivamente i dispoditivi appartenenti a reti diverse, potessero comunicare tra loro.
